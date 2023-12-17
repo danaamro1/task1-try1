@@ -1,0 +1,32 @@
+img{
+    width: 150px;
+    height: 200px;
+
+}
+.swiper{
+    padding: 50px;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    color:green !important;
+    border-radius: 50% !important;
+    background-color: beige;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 20px !important;
+}
+.swiper-pagination-bullet{
+    color: green !important;
+    background-color:brown;
+}
+.swiper-custom-pagination{
+    color: green !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
